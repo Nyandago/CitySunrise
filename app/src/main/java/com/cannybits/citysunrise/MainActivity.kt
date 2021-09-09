@@ -3,6 +3,7 @@ package com.cannybits.citysunrise
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
+import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -10,8 +11,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
     }
 
-  fun GetSunRise(view:View){
-        var city = "sunnyvale,ca"
+  fun getSunRise(view:View){
+        val city = etCityName.text.toString()
         val url = "https://weather-ydn-yql.media.yahoo.com/forecastrss?location="+city+"&format=json"
     }
 }
