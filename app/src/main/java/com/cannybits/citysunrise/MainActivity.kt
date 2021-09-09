@@ -10,7 +10,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
     }
 
-  fun GetSunSet(view:View){
+  fun GetSunRise(view:View){
         var city = "sunnyvale,ca"
         val url = "https://weather-ydn-yql.media.yahoo.com/forecastrss?location="+city+"&format=json"
     }
