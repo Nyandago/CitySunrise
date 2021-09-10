@@ -8,13 +8,14 @@
 
     <EditText
         android:id="@+id/etCityName"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="326dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="60dp"
         android:ems="10"
         android:hint="Enter City's Name"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.343"
+        app:layout_constraintHorizontal_bias="0.318"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
